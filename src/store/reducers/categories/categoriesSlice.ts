@@ -12,6 +12,7 @@ interface CategoriesState {
  const initialState: CategoriesState = {
 	categories: [],
 	categoriesLoading: false
+	
  }
 
  export const categoriesSlice = createSlice({
